@@ -4,15 +4,15 @@
     "version": "1.0",
     "manifest_version": 3,
     "action": {
-      "default_title": "Click to open panel"
-
+      "default_title": "Click to open panel",
+      "side_panel": {
+        "default_path": "sidepanel.html"
+      }
     },
     "permissions":[
       "sidePanel"
     ],
-    "side_panel": {
-      "default_path": "sidepanel.html"
-    },
+
     "icons":{
       "32":"remy_icon32.png"
     }
