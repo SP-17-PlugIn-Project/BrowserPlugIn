@@ -3,11 +3,13 @@ chrome.sidePanel
   .catch((error) => console.error(error));
   
   const searchPage = 'html/sidepanel.hmtl';
-  const testPage = 'hmtl/menu.hmtl';
+  //commented out lines 7-12 until errors fixed
+  //const testPage = 'hmtl/menu.hmtl';
   
+  /*
   document.getElementById("menuButton").addEventListener('click',function(){
     chrome.sidePanel.setOptions({path: testPage});
-  })
+  })*/
 
 
 
