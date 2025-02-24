@@ -2,7 +2,7 @@ chrome.sidePanel
   .setPanelBehavior({ openPanelOnActionClick: true })
   .catch((error) => console.error(error));
   
-  const searchPage = 'html/sidepanel.hmtl';
+  //const searchPage = 'html/sidepanel.hmtl';
   //commented out lines 7-12 until errors fixed
   //const testPage = 'hmtl/menu.hmtl';
   
@@ -13,8 +13,8 @@ chrome.sidePanel
 
 
 
-  /*const mainPage = 'html/sidepanel.hmtl';
-  const testPage = 'html/menu.hmtl';
+  const mainPage = 'html/sidepanel.hmtl';
+  /*const testPage = 'html/menu.hmtl';
 
   chrome.runtime.onInstalled.addListener(() =>  {
     chrome.sidePanel.setOptions({ path: mainPage });
