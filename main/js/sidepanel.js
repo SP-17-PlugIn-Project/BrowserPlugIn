@@ -42,3 +42,9 @@ function parseCSV(csvData) {
         return couponObj; // Return the coupon object for the row
     });
 }
+
+const testPage = 'html/menu.hmtl';
+
+document.getElementById("menuButton").addEventListener("click",function(){
+    chrome.sidePanel.setOptions({path: testPage});
+  })

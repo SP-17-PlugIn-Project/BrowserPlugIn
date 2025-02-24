@@ -6,16 +6,12 @@ chrome.sidePanel
   //commented out lines 7-12 until errors fixed
   //const testPage = 'hmtl/menu.hmtl';
   
-  /*
-  document.getElementById("menuButton").addEventListener('click',function(){
-    chrome.sidePanel.setOptions({path: testPage});
-  })*/
-
-
-
   const mainPage = 'html/sidepanel.hmtl';
-  /*const testPage = 'html/menu.hmtl';
+  
 
+
+
+/*
   chrome.runtime.onInstalled.addListener(() =>  {
     chrome.sidePanel.setOptions({ path: mainPage });
     chrome.sidePanel.setPanelBehavior({ openPanelOnActionClick: true });
