@@ -1,0 +1,58 @@
+body {
+    background-color: aliceblue;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    font-size: 16px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 8px;
+    border: 2px solid lavender;
+    padding: 6px 12px;
+}
+
+button:hover {
+    text-align: center;
+    background-color: lavender;
+    color: black;
+}
+
+
+
+#menuButton {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#menuButton:hover {
+    /*same as default button*/
+}
+
+#container {
+    margin-bottom: 10px;
+}
+
+#searchButton {
+    font-size: 12px;
+    padding: 6px 10px;
+}
+
+#searchButton:hover {
+    font-size: 12px;
+    padding: 6px 10px;
+}
+
+#scrapeButton {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#scrapeButton:hover {
+    /*same as default button*/
+}
