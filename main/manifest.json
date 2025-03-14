@@ -7,14 +7,15 @@
     "default_title": "Click to open panel"
   },
   "side_panel": {
-    "default_path": "html/sidepanel.html",
+    "default_path": "html/login.html",
     "second_path": "html/menu.html"
   },
   "background": {
     "service_worker": "js/service-worker.js"
   },
   "permissions": [
-    "sidePanel"
+    "sidePanel",
+    "storage"
   ],
   "icons": {
     "32": "assets/remy_icon32.png"
