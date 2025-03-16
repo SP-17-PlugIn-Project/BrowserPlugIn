@@ -8,7 +8,11 @@ chrome.sidePanel
   
   const mainPage = 'html/sidepanel.hmtl';
   
-
+  chrome.runtime.onInstalled.addListener(() => {
+    chrome.storage.sync.set({ coupons: [] }, () => {
+        console.log("Storage initialized with an empty coupons array.");
+    });
+});
 
 
 /*
