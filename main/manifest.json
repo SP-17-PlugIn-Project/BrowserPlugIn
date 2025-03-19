@@ -20,14 +20,8 @@
   "icons": {
     "32": "assets/remy_icon32.png"
   },
-  "content_scripts": [
-    {
-      "matches": [
-        "<all_urls>"
-      ],
-      "js": [
-        "js/scraper.js"
-      ]
-    }
-  ]
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'",
+    "sandbox": "sandbox allow-scripts; script-src 'self';"
+  }
 }
