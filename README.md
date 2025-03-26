@@ -15,5 +15,11 @@ The project is currently in its early stages, currently only with a basic struct
 - Compliant scraping mechanisms and a transparent coupon application process from trusted sources
 - User authentication (used for submitting and validating coupons)
 
-## **To-do**
-- Add a license
+## **Firebase setup**
+- Create a Firebase project https://console.firebase.google.com/
+- Set up Firestore in test mode
+- Enable anonymous authentication under Authentication -> Sign-in method
+- Update Firestore security rules to allow reads (temporarily for testing)
+- Copy your Firebase config object from the Firebase console
+- Create file 'firebase-config.js' in main/js
+- Use firebase-config-example.js as a reference
