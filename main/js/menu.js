@@ -1,7 +1,6 @@
-import { getAuth, onAuthStateChanged } from "./../node_modules/firebase/firebase-auth.js";
-import { firebaseApp } from "./firebase-config.js";
+import { onAuthStateChanged } from "./../node_modules/firebase/firebase-auth.js";
+import { auth } from "./firebase-config.js";
 
-const auth = getAuth(firebaseApp);
 onAuthStateChanged(auth, (user) => {
     if (!user) {
         chrome.sidePanel.setOptions({ path: "../html/login.html" });
