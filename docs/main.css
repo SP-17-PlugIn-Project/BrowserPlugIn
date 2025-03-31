@@ -54,6 +54,10 @@ p {
     color: indigo;
 }
 
+.sidebar h3 {
+    color: black;
+}
+
 .main {
     margin-left: 160px;
     padding: 0px 10px;
