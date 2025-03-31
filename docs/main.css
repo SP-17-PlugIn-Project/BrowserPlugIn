@@ -30,6 +30,7 @@ p {
 
 .sidebar {
     width: 160px;
+    height: 100vh;
     position: fixed;
     z-index: 1;
     top: 0;
