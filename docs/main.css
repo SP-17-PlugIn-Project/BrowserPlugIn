@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    color: aliceblue;
 }
 
 h1 {
@@ -33,7 +34,7 @@ p {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #FCF3CF;
+    background-color: lavender;
     overflow-x: hidden;
     padding-top: 20px;
 }
@@ -46,7 +47,7 @@ p {
 }
 
 .sidebar a:hover {
-    color: purple;
+    color: indigo;
 }
 
 .main {
