@@ -18,7 +18,8 @@ h3 {
 }
 
 table, th, td {
-    border: 3px solid indigo;
+    border-style: solid;
+    border-color: indigo;
     text-align: center;
     border-collapse: collapse;
 }
