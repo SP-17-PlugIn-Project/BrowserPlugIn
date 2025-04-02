@@ -3,4 +3,3 @@
 node_modules/
 .env
 js/firebase-config.js
-package-lock.json

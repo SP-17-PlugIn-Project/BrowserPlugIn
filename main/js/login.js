@@ -16,8 +16,8 @@ document.getElementById("registerButton").addEventListener("click", () => {
     .catch((error) => {
       const errorCode = error.code;
       const errorMessage = error.message;
-      alert("Registration failed: " + errorMessage);
-      console.error("Registration error: ", errorCode);
+      alert("Registration failed " + errorMessage);
+      console.error("Registration error ", errorCode);
     });
 });
 
@@ -33,7 +33,7 @@ document.getElementById("loginButton").addEventListener("click", () => {
     .catch((error) => {
       const errorCode = error.code;
       const errorMessage = error.message;
-      alert("Login failed: " + errorMessage);
-      console.error("Login error: ", errorCode);
+      alert("Login failed " + errorMessage);
+      console.error("Login error ", errorCode);
     });
 });
