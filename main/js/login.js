@@ -1,4 +1,4 @@
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from "./../node_modules/firebase/firebase-auth.js";
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signInAnonymously } from "./../node_modules/firebase/firebase-auth.js";
 import { auth } from "./firebase-config.js";
 
 const emailInput = document.getElementById("emailField");
@@ -35,5 +35,20 @@ document.getElementById("loginButton").addEventListener("click", () => {
       const errorMessage = error.message;
       alert("Login failed " + errorMessage);
       console.error("Login error ", errorCode);
+    });
+});
+
+document.getElementById("guestButton").addEventListener("click", () => {
+
+  signInAnonymously(auth)
+    .then((userCredential) => {
+      // const user = userCredential.user; We can use this later
+      chrome.sidePanel.setOptions({ path: "../html/menu.html" });
+    })
+    .catch((error) => {
+      const errorCode = error.code;
+      const errorMessage = error.message;
+      alert("Guest login failed " + errorMessage);
+      console.error("Guest login error ", errorCode);
     });
 });
