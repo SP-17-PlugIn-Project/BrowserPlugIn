@@ -32,33 +32,6 @@ p {
     text-align: center;
 }
 
-.sidebar {
-    width: 160px;
-    height: 100vh;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: lavender;
-    overflow-x: hidden;
-    padding-top: 20px;
-}
-
-.sidebar a {
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-    display: block;
-}
-
-.sidebar a:hover {
-    color: indigo;
-}
-
-.sidebar h3 {
-    color: black;
-}
-
 .main {
     margin-left: 160px;
     padding: 0px 10px;
